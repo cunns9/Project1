@@ -104,18 +104,28 @@ section.menu
     text-align: right;
 }
 
-#bottom{
+.bottom{
     margin-top: 10%;
 }
 
-#bottom h3{
+.bottom h3{
     font-family: Impact, Haettenschweiler, sans-serif;
     font-size: 17px;
     margin-bottom: 10%;
     
 }
-.pages {
-    display: table-column;
-    text-align: center;
-    width: auto;
-}
+
+.col-md-4 {
+    background-color: #a4a7a4;
+    float: left;
+    width: 33.33%;
+    height: 400px;
+    background-color: #a4a7a4;
+  }
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: flex;
+    clear: both;
+  }
