@@ -6,20 +6,20 @@ header
 
 }
 
-section.nav 
+#nav 
 {
     width: 100%;
     height: 80px;
     background-color: #7d7d7d;
 }
 
-Section.small-carousel 
+#small-carousel 
 {
     width: 250px;
     height: 60px;
     background-color: #c4c4c4;
     margin: auto; align-self: center;
-    border-radius: 25px;
+    border-radius: 40px;
     text-align: center;
     text-emphasis: 3em;
 }
@@ -31,28 +31,42 @@ section.large-carousel
     background-color: #d49d9d;
 }
 
-section.large-carosuel .shopInfo
+#shopInfo
 {
-    width: 200px;
-    height: auto;
+    width: 25%;
+    height: 70%;
     background-color: whitesmoke;
-    border-radius: 20px;
+    border-radius: 40px;
+    text-align: center;
+    margin-left: 60px;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 175%;
 }
 
-Section.save
+#save
 {
-    width: 150px;
-    height: 20px;
+    width: 60%;
+    height: 5%;
     background-color: white;
+    stroke-width: 2pt;
+    border-radius: 20px;
     text-align: center;   
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.7rem;
+
 }
 
-Section.order-ahead
+#order-ahead
 {
-    width: 150px;
-    height: 20px;
+    width: 30%;
+    height: 5%;
     background-color: red;
-    text-align: center;   
+    border-radius: 20px;
+    text-align: center; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.8rem;
 }
 
 Section.ad-bar
@@ -76,32 +90,32 @@ section.menu
     background-color: #d9dddf;
 }
 
-Section.bottom
+#bottom
 {
     width: 100%;
     height: 450px;
     background-color: #737573;
 }
 
-section.footer .container
+.copyright
 {
-    width: 120px;
+    width: 300px;
     height: 90px;
     text-align: right;
 }
 
-.column {
-    float: left;
-    width: 33.33%;
-    height: 400px;
-    background-color: #a4a7a4;
+#bottom{
+    margin-top: 10%;
+}
 
-
-  }
-
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+#bottom h3{
+    font-family: Impact, Haettenschweiler, sans-serif;
+    font-size: 17px;
+    margin-bottom: 10%;
+    
+}
+.pages {
+    display: table-column;
+    text-align: center;
+    width: auto;
+}
