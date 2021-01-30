@@ -1,35 +1,71 @@
-header 
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+/*---------Navigation-------*/
+#nav-bar 
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar-brand
+{
+    height: 20px;
+    padding-left: 30px;
+    font-family: cursive;
+}
+
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+
+.navbar-nav li
+{
+    float: right;
+    text-align: left;
+}
+
+#nav-bar ul li a:hover
+{
+    color: #007bff!important;
+}
+
+.navbar-brand
+{
+    background: #fff;
+}
+
+.navbar-toggler
+{
+    border: none!important;
+}
+
+.nav-link
+{
+    color: #555!important;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/*----Slider----*/
+#slider
 {
     width: 100%;
-    height: 60px ;
-    background-color: rgb(0,0,0);
-
 }
 
-#nav 
-{
-    width: 100%;
-    height: 80px;
-    background-color: #7d7d7d;
-}
 
-#small-carousel 
-{
-    width: 250px;
-    height: 60px;
-    background-color: #c4c4c4;
-    margin: auto; align-self: center;
-    border-radius: 40px;
-    text-align: center;
-    text-emphasis: 3em;
-}
 
-section.large-carousel
-{
-    width: 100%;
-    height: 600px;
-    background-color: #d49d9d;
-}
+
+
+
+
+
+
 
 #shopInfo
 {
@@ -90,12 +126,45 @@ section.menu
     background-color: #d9dddf;
 }
 
-#bottom
+#about
 {
-    width: 100%;
-    height: 450px;
-    background-color: #737573;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #555;
 }
+
+.h2
+{
+    text-align: center;
+}
+
+/* CSS reset. Source: https://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+html {
+    box-sizing: flex;
+    font-size: 10px;
+}
+   *,
+   *::before,
+   *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+
+.grid-child {
+    background-color: lightseagreen;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.grid-container {
+    display: grid;
+    font-size: 30px;
+    margin: 30px;
+}
+
+
 
 .copyright
 {
@@ -103,29 +172,3 @@ section.menu
     height: 90px;
     text-align: right;
 }
-
-.bottom{
-    margin-top: 10%;
-}
-
-.bottom h3{
-    font-family: Impact, Haettenschweiler, sans-serif;
-    font-size: 17px;
-    margin-bottom: 10%;
-    
-}
-
-.col-md-4 {
-    background-color: #a4a7a4;
-    float: left;
-    width: 33.33%;
-    height: 400px;
-    background-color: #a4a7a4;
-  }
-
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: flex;
-    clear: both;
-  }
