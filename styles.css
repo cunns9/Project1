@@ -37,7 +37,7 @@
 
 .navbar-brand
 {
-    background: #fff;
+    background:;
 }
 
 .navbar-toggler
@@ -58,9 +58,15 @@
     width: 100%;
 }
 
+@media (max-width: 688px) {
+    .carousel-item>img {
+        max-height: 146;
+    }
+}
 
-
-
+.carousel-item-next, .carousel-item-prev, .carousel-item.active {
+    display: block !important;
+}
 
 
 
@@ -105,12 +111,6 @@
     font-size: 0.8rem;
 }
 
-Section.ad-bar
-{
-    width: 100%;
-    height: 200px;
-    background-color: rgb(223, 202, 202);
-}
 
 section.blank-space
 {
@@ -131,6 +131,11 @@ section.menu
     padding-top: 50px;
     padding-bottom: 50px;
     color: #555;
+}
+
+.about-content
+{
+    padding-top: 20px;
 }
 
 .h2
