@@ -19,7 +19,8 @@
     <!------NavigationBar----->
     <section id="nav-bar"><nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Cunni's Pizza & Grill</a>
+          <a class="navbar-brand" href="#">
+            <img src="img/logo/logo.png"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -57,13 +58,13 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active"> 
-                    <img src="img/banner1-.jpg" class="d-block img-fluid">
+                    <img src="img/banner/banner1.jpg" class="d-block img-fluid">
                 </div>
                 <div class="carousel-item">
-                    <img src="img/banner2.jpg" class="d-block img-fluid">
+                    <img src="img/banner/banner2.jpg" class="d-block img-fluid">
                 </div>
                 <div class="carousel-item">
-                    <img src="img/banner3.jpg" class="d-block img-fluid">
+                    <img src="img/banner/banner3.jpg" class="d-block img-fluid">
                 </div>
             </div>
                 <a class="carousel-control-prev" href="#headerSlider" role="button" data-bs-slide="prev">
@@ -84,9 +85,11 @@
         <div id="promo">
             <div class="container">
               <p>Save 5% when you order online</p>
-              <a href="# class="btn btn-primary>Contact Us</a>"
+              <a href="#" class="btn btn-success">Contact Us</a>
             </div>
-            <div id="order-ahead">Order Ahead</div>
+            <div class="order-ahead">    
+              <a href="#" class="btn btn-danger">Order Ahead</a>
+            </div>
         </div> 
 
     </section>    
@@ -95,9 +98,9 @@
     <section id="ad-bar carousel inner">
       <div class="slideshow-container">
         <div id="imgDetail">
-            <img data-iframe="sketchfab-iframe-1" src="img/img1.jpg" class="chair-class" data-active="true" />
-            <img data-iframe="sketchfab-iframe-2" src="img/img2.jpg" class="chair-class" data-active="false" />
-            <img src="img/img3.jpg" class="chair-class" data-active="false"> 
+            <img data-iframe="sketchfab-iframe-1" src="#" class="chair-class" data-active="true" />
+            <img data-iframe="sketchfab-iframe-2" src="#" class="chair-class" data-active="false" />
+            <img src="#" class="chair-class" data-active="false"> 
         </div>
 
         <!--Thumbnails-->
@@ -111,27 +114,124 @@
 
 
     <section id="menu">
-      <div class="container">
-        <h1>Menu Items</h1>
+      <div class="title">
+        <h1>Quick browse menu items</h1>
         <div class="row">
           <div class="col-md-3 menu-image text-center">
             <div class="img-box">
-              <img src="img/menu1-.jpg" class="img-responsive">
-            </div>
+              <img src="img/thumbnails/menu1-.jpg" class="img-responsive">
+              </div>
               <h2>Wings</h2>
               <h3>Flavors</h3>
               <p>
-                <li>Bbq</li>
-                <li>Buffalo</li>
-                <li>Cajun</li>
-                <li>Ranch</li>
+                <ul>Bbq</ul>
+                <ul>Buffalo</ul>
+                <ul>Cajun</ul>
+                <ul>Ranch</ul>
               </p>
+            </div>
+
+              <div class="col-md-3 menu-image text-center">
+                <div class="img-box">
+                  <img src="img/thumbnails/menu2.jpg" class="img-responsive">
+                </div>
+                  <h2>Burgers</h2>
+                  <h3>Specialities</h3>
+                  <p>
+                    <ul>Beef</ul>
+                    <ul>Vegan</ul>
+                    <ul>chicken</ul>
+                    <ul>Build your own</ul>
+                  </p>
+                </div>
+
+                  <div class="col-md-3 menu-image text-center">
+                    <div class="img-box">
+                      <img src="img/thumbnails/menuSan.jpg" class="img-responsive">
+                    </div>
+                      <h2>Salads</h2>
+                      <h3>Type</h3>
+                      <p>
+                        <ul>House</ul>
+                        <ul>Ceaser</ul>
+                        <ul>Fruit</ul>
+                        <ul>etc...</ul>
+                      </p>
+                    </div>
+
+                      <div class="col-md-3 menu-image text-center">
+                        <div class="img-box">
+                          <img src="img/thumbnails/menu4.jpg" class="img-responsive">
+                        </div>
+                          <h2>Sandwiches</h2>
+                          <h3>Flat Bread/Subs</h3>
+                          <p>
+                            <ul>Cold</ul>
+                            <ul>Hot</ul>
+                            <ul>Spicy</ul>
+                            <ul>Build your own</ul>
+                          </p>
+                      </div>
+        </div>
+      </div>
+    </section>
+
+    <!-----Menu----->
+    <div id="wrapper">
+      <div class="title">
+<h4><span>Best Pizza and Burgers in Town</span>Our Menu</h4>
+      </div>
+      <div class="menu">
+        <div class="single-menu">
+          <img src="img/thumbnails/menu1-.jpg" alt="">
+          <div class="menu-content">
+            <h4>Wings (6pcs) <span>$10</span></h4>
+            <p>Choice of sauce bbq, buffallo, ranch & cajun. also, 
+              served with blue cheese dressing, celery and carrots sticks</p>
+          </div>
+        </div>
+        <div class="single-menu">
+          <img src="img/thumbnails/MenuHam.jpg" alt="">
+          <div class="menu-content">
+            <h4>Burgers <span>$10</span></h4>
+            <p>Choice of sauce beef, chicken, vegan. Topped with onions, pickles, lettuce and tomatoes. Served with a side of fries (sweet potato/regular fries)</p>
+          </div>
+        </div>
+        <div class="single-menu">
+          <img src="img/thumbnails/menu4.jpg" alt="">
+          <div class="menu-content">
+            <h4>Sandwiches <span>$10</span></h4>
+            <p>Choice of sauce bbq, buffallo, ranch & cajun. also, 
+              served with blue cheese dressing, celery and carrots sticks</p>
+          </div>
+        </div>
+        <div class="single-menu">
+          <img src="img/thumbnails/menuBite.jpg" alt="">
+          <div class="menu-content">
+            <h4>Snack bites <span>$10</span></h4>
+            <p>Choice of sauce bbq, buffallo, ranch & cajun. also, 
+              served with blue cheese dressing, celery and carrots sticks</p>
+          </div>
+        </div>
+        <div class="single-menu">
+          <img src="img/thumbnails/spri.jpg" alt="">
+          <div class="menu-content">
+            <h4>Pasta <span>$10</span></h4>
+            <p>Choice of sauce bbq, buffallo, ranch & cajun. also, 
+              served with blue cheese dressing, celery and carrots sticks</p>
+          </div>
+        </div>
+        <div class="single-menu">
+          <img src="img/thumbnails/menu3.jpg" alt="">
+          <div class="menu-content">
+            <h4>Salad <span>$10</span></h4>
+            <p>Choice of sauce bbq, buffallo, ranch & cajun. also, 
+              served with blue cheese dressing, celery and carrots sticks</p>
           </div>
         </div>
 
       </div>
-    </section>
-
+    </div>
 
 
     <!------About------> 
@@ -150,13 +250,13 @@
                     Animi fuga impedit reprehenderit et. Fuga recusandae, soluta amet facilis eum similique!
                 </div>
 
-                <div class="#">
+                <div class="social-media">
                   <ul>
                     <a href="#"><li><i class="fa fa-facebook"></i></li></a>
                     <a href="#"><li><i class="fa fa-twitter"></i></li></a>
                     <a href="#"><li><i class="fa fa-instagram"></i></li></a>
                   </ul>
-                  <p>Contact Us</p>
+                  <p></p>
                 </div>
             
         </div>
@@ -165,25 +265,11 @@
         
         <div class="copyright">
             
-            Copyright (c) 2021 Cunni's Pizza 
+            <p>Copyright (c) 2021 Cunni's Pizza</p> 
             
             </div>
                 
                 </footer>
-            </section>
-
-    <section>
-            
-            <div class="leave-message">Leave a message</div>
-            
-            <div class="back-to-top">↑</div>
-
-            </div>
-        </section>
-
-
-
-    </div> <!-- end of container div -->
 </body>
 
 </html>
