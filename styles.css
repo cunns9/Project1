@@ -1,8 +1,8 @@
-*
-{
+*{
     margin: 0;
     padding: 0;
 }
+
 
 /*---------Navigation-------*/
 #nav-bar 
@@ -15,9 +15,8 @@
 
 .navbar-brand
 {
-    height: auto;
+    height: 50%;
     padding-left: 30px;
-
 }
 
 .navbar-nav li
@@ -25,7 +24,7 @@
     padding: 0 10px;
 }
 
-.navbar-nav li
+.navbar-nav li a
 {
     float: right;
     text-align: left;
@@ -53,26 +52,19 @@
     font-size: 16px;
 }
 
-/*----Slider----*/
+/*----Slider----*/s
 #slider
 {
     width: 100%;
-}
-
-@media (max-width: 688px) {
-    .carousel-item>img {
-        max-height: 146 !important;
-    }
+    height: 50%;
+    position: block !important;
+    background-color: whitesmoke;
+    
 }
 
 .carousel-item-next, .carousel-item-prev, .carousel-item.active {
     display: block !important;
 }
-
-
-
-
-
 
 #shopInfo
 {
@@ -103,23 +95,11 @@
     font-size: 38px;
 }
 
-#order-ahead
-{
-    width: 30%;
-    height: 5%;
-
-    border-radius: 20px;
-    text-align: center; 
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 0.8rem;
-}
-
-
 section.blank-space
 {
     width: 100%;
     height: 375px;
-    background-color: white;
+    background-color: teal;
 }
 
 
@@ -154,7 +134,7 @@ padding: 3px;
 
 .title h1::before
 {
-position: absolute;
+position: relative;
 content: "";
 width: 100px;
 height: 2px;
@@ -170,6 +150,7 @@ transform: translateX(-50%);
     font-weight: bold;
     margin-top: 15px;
     color: #b0031b !important;
+    text-align: center;
 }
 
 .menu-image h3
@@ -284,33 +265,27 @@ color: #b0021b;
 font-size: italic;
 }
 
-
-#about
+#about-us
 {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     color: #b0031b;
 }
-
 
 .about-content
 {
     padding-top: 20px;
 }
-
-.h2
-{
-    text-align: center;
-}
-
-#about .fa
+.fa
 {
 height: 25px;
 width: 25px;
-color: #02a342 !important;
+color: #02a342;
 background: black;
 padding: 4px;
 border-radius: 50%;
+align-items: center;
+position: -ms-page;
 }
 
 .social-media ul
@@ -340,14 +315,32 @@ border-radius: 50%;
     transition: 0.5s
 }
 
-.footer
+/*--Contact Us--*/
+#contact
 {
-    position: relative;
+    background: #efefef;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #777;
+}
+
+.contact-form
+{
+    padding: 50px;
+}
+
+#footer
+{position: -webkit-sticky;
+    bottom: 0%;
+    z-index: 10;
+    background-color: violet;
+    display: ruby-base;
 
 }
+
 .copyright
 {
-    width: 300px;
-    height: 90px;
+    width: 50%;
+    height: 25%;
     text-align: right;
 }
