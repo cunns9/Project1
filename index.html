@@ -9,6 +9,9 @@
 
 <link rel="stylesheet" href="styles.css">
 
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
@@ -100,7 +103,7 @@
 
     <section class="blank-space"><h5>Blank Space</h5></section>
 
-    <section id="menu">
+    <section id="top-menu">
       <div class="title">
         <h4>Quick browse menu items</h4>
         <div class="row">
@@ -138,6 +141,53 @@
 <h4><span>Best Pizza and Burgers in Town</span>Our Menu</h4>
       </div>
       <div class="menu">
+        <div class="single-menu">
+          <img src="img/thumbnails/menu11-.jpg" alt="">
+          <div class="menu-content">
+            <h4>Cheese <span>$12</span></h4>
+            <p>Choice of sauce bbq, buffallo, ranch & cajun. also, 
+              served with blue cheese dressing, celery and carrots sticks</p>
+          </div>
+        </div>
+        <div class="single-menu">
+          <img src="img/thumbnails/MenuHam0.jpg" alt="">
+          <div class="menu-content">
+            <h4>Pepperoni <span>$14</span></h4>
+            <p>Choice of sauce beef, chicken, vegan. Topped with onions, pickles, lettuce and tomatoes. Served with a side of fries (sweet potato/regular fries)</p>
+          </div>
+        </div>
+        <div class="single-menu">
+          <img src="img/thumbnails/menu40.jpg" alt="">
+          <div class="menu-content">
+            <h4>Bacon & Pineapple <span>$14</span></h4>
+            <p>Choice of sauce bbq, buffallo, ranch & cajun. also, 
+              served with blue cheese dressing, celery and carrots sticks</p>
+          </div>
+        </div>
+        <div class="single-menu">
+          <img src="img/thumbnails/menuBite1.jpg" alt="">
+          <div class="menu-content">
+            <h4>Hawiian <span>$14</span></h4>
+            <p>Choice of sauce bbq, buffallo, ranch & cajun. also, 
+              served with blue cheese dressing, celery and carrots sticks</p>
+          </div>
+        </div>
+        <div class="single-menu">
+          <img src="img/thumbnails/spri..jpg" alt="">
+          <div class="menu-content">
+            <h4>Sausage <span>$16</span></h4>
+            <p>Choice of sauce bbq, buffallo, ranch & cajun. also, 
+              served with blue cheese dressing, celery and carrots sticks</p>
+          </div>
+        </div>
+        <div class="single-menu">
+          <img src="img/thumbnails/menu3l.jpg" alt="">
+          <div class="menu-content">
+            <h4>Vegetable <span>$14</span></h4>
+            <p>Choice of sauce bbq, buffallo, ranch & cajun. also, 
+              served with blue cheese dressing, celery and carrots sticks</p>
+          </div>
+        </div>
         <div class="single-menu">
           <img src="img/thumbnails/menu1-.jpg" alt="">
           <div class="menu-content">
@@ -192,7 +242,7 @@
     <section id="about-us">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-12">
                   <h2>About Us</h2>
                 <div class="about-content">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -203,26 +253,19 @@
                     Animi fuga impedit reprehenderit et. Fuga recusandae, soluta amet facilis eum similique!
                 </div>
               </div>
-                <div class="social-media">
-                  <p>
-                    <a href="#" class="fa fa-facebook"></a>
-                    <a href="#" class="fa fa-twitter"></a>
-                    <a href="#" class="fa fa-instagram"></a>
-                  </p>
-                </div>
             </div>
-        </div>
+          </div>
       </section>
 
         <!--Contact Us-->
         <section id="contact">
           <div class="container">
-            <h4>Contact Us</h4>
+            <h1>Contact Us</h1>
             <div class="row">
               <div class="col-md-6">
-                <form class="contact-form"> 
+                <form class="contact-form" action="action_page.php"> 
                   <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Your-Name">
+                    <input type="text" class="form-control" placeholder="Your Name">
                   </div>
                   <div class="form-group">
                     <input type="number" class="form-control" placeholder="Phone Number">
@@ -234,20 +277,28 @@
                     <textarea class="form-control" rows="4" placeholder="Your Message"></textarea>
                   </div>
                   <button type="submit" class="btn btn-success">SEND MESSAGE</button>
-                </form>
+              </form>
               </div>
-              <div class="col-md-6">
+              <div class="col-md-6 contact-info">
+                <div class="follow"><b>Address:</b><i class="fa fa-map-marker"></i> 1234 N State Rd 7, Deerfield Beach, 
+                  FL 52136</div>
+                  <div class="follow"><b>Phone:</b><i class="fa fa-phone"></i> +1 123-456-7890</div>
+                <div class="follow"><b>Email:</b><i class="fa fa-envelope-o"></i> cunnispizza@grill.com</div>
+                <div class="follow"><b>Get Social:</b>
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                  <a href="#"><i class="fa fa-youtube"></i></a>
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                  <a href="#"><i class="fa fa-instagram"></i></a>
+                </div>
               </div>
             </div>
           </div>
         </section>
 
-        <div id="footer"> 
-          <div class="footer-pad">
-            <div class="copyright">
-            <p>Copyright (c) 2021 Cunni's Pizza</p> 
-            </div>
+        <section id="footer"> 
+          <div class="container text-center">
+            <h5>Copyright (c) 2021 Cunni's Pizza<h5> 
           </div>
-        </div>
+        </section>
 </body>
 </html>
