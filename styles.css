@@ -56,19 +56,6 @@ html {
   padding: 30 !important;
 }
 
-#shopInfo {
-  width: 25%;
-  height: 70%;
-  background-color: whitesmoke;
-  border-radius: 40px;
-  text-align: center;
-  margin-left: 60px;
-  margin-bottom: 60px;
-  margin-top: 60px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 175%;
-}
-
 /*-------Promo------*/
 
 #promo {
@@ -79,12 +66,12 @@ html {
   color: #fff;
   background-attachment: fixed;
   text-align: center;
-  padding: 100px;
+  padding: 75px;
   font-family: sans-serif;
   font-size: 38px;
 }
 
-/*------Menu-------*/
+/*------topMenu-------*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 #top-menu {
   padding-top: 30px;
@@ -126,14 +113,20 @@ html {
   margin-top: 15px;
 }
 
-.section,
-.blank-space {
+/*--Pizza Menu--*/
+#text {
   width: 100%;
   height: 375px;
-  background-color: #02a342;
+  background-color: #efefef;
+  padding: 10px;
 }
 
-/*------Menu2-------*/
+#text,
+.h6 {
+  text-align: center;
+}
+
+/*------Menu-------*/
 #menu {
   font-family: "Poppins", sans-serif;
 }

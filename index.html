@@ -30,16 +30,16 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">INFO</a>
+                <a class="nav-link active" aria-current="page" href="#top-menu">INFO</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">MENU</a>
+                <a class="nav-link" href="#wrapper">MENU</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">ABOUT US</a>
+                <a class="nav-link" href="#about-us">ABOUT US</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link " href="#">CONTACT</a>
+                <a class="nav-link " href="#contact">CONTACT</a>
               </li>
             </ul>
           </div>
@@ -53,8 +53,8 @@
         <div id="headerSlider" class="carousel slide" data-bs-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-bs-target="#headerSlider" data-bs-slide-to="0" class="active"></li>
-                <li data-bs-target="#headerSlider" data-bs-slide-to="2"></li>
                 <li data-bs-target="#headerSlider" data-bs-slide-to="1"></li>
+                <li data-bs-target="#headerSlider" data-bs-slide-to="2"></li>
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active"> 
@@ -76,12 +76,10 @@
                     <span class="visually-hidden">Next</span>
             </a>
         </div> 
-    
-        </div>
-
+      </div>
         <!---Promo-->
         <section id="promo">
-            <div class="promotion">
+            <div class="container">
               <h1>Save 5% when you order online</h1>
               <a href="#" class="btn btn-success">Contact Us</a>
             </div>
@@ -121,31 +119,65 @@
         </div>
       </div>
     </section>
-    
-<!---AdBar-->
-    <section id="ad-bar carousel-inner">
-      <div class="slideshow-container">
-        <div id="imgDetail">
-            <img data-iframe="sketchfab-iframe-1" src="#" class="chair-class" data-active="true" alt="">
-            <img data-iframe="sketchfab-iframe-2" src="#" class="chair-class" data-active="false" alt="">
-            <img src="#" class="chair-class" data-active="false" alt=""> 
-        </div>
-      </div>
-    </section>
-
-
-    <section class="blank-space">
-      <div class="row">
+<!--Pizza Menu-->>
+    <section id="text">
+      <div class="row pt-5 text-center">
         <h4>Pizza Menu</h4>
-        <div class="col-md-6">
-
+        <span>
+          Choose your topping pizzas. Our marinara sauce is made fresh daily right here in our kitchen.
+        </span>
+        <p><b>All toppings are <span><i>$2.50 each</i></b></span></p>
         </div>
-
+        <div class="container">
+          <div class="row align-items-start text-center">
+            <div class="col">
+              Tomato
+            </div>
+            <div class="col">
+              Peppers
+            </div>
+            <div class="col">
+              Bacon
+            </div>
+            <div class="col">
+              Pepperoni
+            </div>
+          </div>
+          <div class="row align-items-center text-center">
+            <div class="col">
+              Mushrooms
+            </div>
+            <div class="col">
+              Spinach
+            </div>
+            <div class="col">
+              Vegan cheese
+            </div>
+            <div class="col">
+              Extra cheese
+            </div>
+          </div>
+          <div class="row align-items-end text-center">
+            <div class="col">
+              Pineapple 
+            </div>
+            <div class="col">
+              Chicken
+            </div>
+            <div class="col">
+              Jalapeño 
+            </div>
+            <div class="col">
+              Olives 
+            </div>
+          </div>
+          <p><h6><i>Thank you for choosing Cunni’s Pizza & Grill as your choice of restaurant. 
+            We are incredibly happy to serve you and ensure you enjoy your meal here with us.</i></h6></p>
+          </div>
       </div></section>
-
-
     <!---Menu-->
     <div id="wrapper">
+      <div class="m-5 pd-5">
       <div class="title">
 <h4><span>Best Pizza and Burgers in Town</span>Our Menu</h4>
       </div>
@@ -240,7 +272,7 @@
         </div>
       </div>
     </div>
-
+  </div>
     <!---About--> 
     <section id="about-us">
         <div class="container">
@@ -248,18 +280,16 @@
                 <div class="col-md-12">
                   <h2>About Us</h2>
                 <div class="about-content">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Laborum, atque explicabo repellendus sed corrupti 
-                    incidunt consequuntur optio voluptates provident pariatur 
-                    dolor modi. Quia, perferendis vitae. Lorem, ipsum dolor sit 
-                    amet consectetur adipisicing elit. Aliquid sapiente voluptatum ad commodi. 
-                    Animi fuga impedit reprehenderit et. Fuga recusandae, soluta amet facilis eum similique!
+                    Cunni's Pizza & Grill was statrted by three members of our family. 
+                    We visioned a health food restaurant and started in 2013 with salads and natural juices. 
+                    Eventually, we saw the need to add freshly homemade burgers and pizzas to our menu. 
+                    Thus, we researched and find the best brand in meats to provide our customers with a healthy choice of their favourite meals. 
+                    Today we are proud to serve you and the community.
                 </div>
               </div>
             </div>
           </div>
       </section>
-
         <!--Contact Us-->
         <section id="contact">
           <div class="container">
@@ -297,11 +327,16 @@
             </div>
           </div>
         </section>
-
+<!---footer-->
         <section id="footer"> 
           <div class="container text-center">
             <h5>Copyright (c) 2021 Cunni's Pizza<h5> 
           </div>
         </section>
+        <!---footer end-->
+        <script src="js/smooth-scroll.js"></script>
+        <script>
+          var scroll = new SmoothScroll('a[href*="#"]');
+        </script>
 </body>
 </html>
